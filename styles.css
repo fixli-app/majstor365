@@ -86,9 +86,9 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .service-photo figcaption { position: absolute; z-index: 1; right: 14px; bottom: 15px; left: 14px; display: grid; gap: 6px; color: var(--white); }
 .service-photo figcaption span { color: var(--yellow); font-size: 8px; font-weight: 800; letter-spacing: .1em; }
 .service-photo figcaption strong { font-size: 14px; line-height: 1.3; }
-.service-list { display: grid; grid-template-columns: 1fr 1fr; column-gap: 38px; row-gap: 0; margin: 0; padding: 17px 0 0; border-top: 1px solid var(--line); list-style: none; counter-reset: services; }
-.service-list li { position: relative; min-height: 48px; padding: 13px 10px 11px 26px; border-bottom: 1px solid var(--line); color: #44453f; font-size: 10px; line-height: 1.65; counter-increment: services; }
-.service-list li::before { position: absolute; top: 14px; left: 1px; color: #967700; content: counter(services, decimal-leading-zero); font-size: 8px; font-weight: 800; }
+.service-list { display: grid; grid-template-columns: 1fr 1fr; column-gap: 38px; row-gap: 0; margin: 0; padding: 17px 0 0; border-top: 1px solid var(--line); list-style: none; }
+.service-list li { position: relative; min-height: 48px; padding: 13px 10px 11px 26px; border-bottom: 1px solid var(--line); color: #44453f; font-size: 10px; line-height: 1.65; }
+.service-list li::before { position: absolute; top: 12px; left: 1px; display: grid; width: 17px; height: 17px; place-items: center; color: var(--yellow); background: var(--ink); border-radius: 50%; content: "✓"; font-size: 10px; font-weight: 800; }
 
 .faq { padding-block: 57px 68px; border-top: 1px solid var(--line); }
 .faq .section-heading { align-items: end; margin-bottom: 22px; }
@@ -248,7 +248,7 @@ html[dir="rtl"] .faq-list details p { margin-right: 0; margin-left: 30px; }
   .service-photo figcaption strong { font-size: 12px; }
   .service-list { column-gap: 16px; padding-top: 12px; }
   .service-list li { min-height: 44px; padding: 10px 5px 9px 21px; font-size: 8px; }
-  .service-list li::before { top: 12px; font-size: 7px; }
+  .service-list li::before { top: 9px; width: 15px; height: 15px; font-size: 9px; }
   .faq { padding-block: 42px 47px; }
   .faq-list { grid-template-columns: 1fr; }
   .faq-list details { padding-block: 14px; }
