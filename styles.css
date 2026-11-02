@@ -180,6 +180,7 @@ html[dir="rtl"] .faq-list details p { margin-right: 0; margin-left: 30px; }
 .footer-top { color: var(--yellow); font-size: 8px; font-weight: 700; letter-spacing: .1em; }
 .footer-bottom { display: flex; min-height: 39px; align-items: center; justify-content: space-between; border-top: 1px solid rgb(255 255 255 / 13%); color: #b5b5ad; font-size: 8px; }
 .footer-bottom a { color: var(--white); }
+.footer-bottom .web-credit { color: #777870; font-size: 7px; }
 .whatsapp-float { position: fixed; z-index: 30; right: 21px; bottom: 21px; display: grid; width: 51px; height: 51px; place-items: center; color: var(--ink); background: var(--yellow); border: 2px solid var(--ink); border-radius: 50%; box-shadow: 0 4px 14px rgb(0 0 0 / 20%); transition: transform .18s ease, background .18s ease; }
 .whatsapp-float:hover { background: var(--white); transform: translateY(-2px); }
 .whatsapp-float svg { width: 25px; height: 25px; fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.6px; }
@@ -277,7 +278,7 @@ html[dir="rtl"] .faq-list details p { margin-right: 0; margin-left: 30px; }
   .footer-inner { min-height: 76px; flex-wrap: wrap; gap: 10px; padding-block: 12px; }
   .footer-contact { margin-left: auto; text-align: right; }
   .footer-top { display: none; }
-  .footer-bottom { min-height: 36px; }
+  .footer-bottom { min-height: 36px; flex-wrap: wrap; justify-content: center; gap: 7px 14px; padding-block: 9px; text-align: center; }
   .whatsapp-float { right: 13px; bottom: 13px; width: 45px; height: 45px; }
 }
 
